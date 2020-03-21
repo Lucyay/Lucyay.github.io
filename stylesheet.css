@@ -1,0 +1,162 @@
+body{
+	background-color: #ffff4f;
+}
+/*creo due colonne per disporre il contenuto*/
+#contenuto1{
+	float: left;
+	width: 43%;
+	margin: 0.5%;
+	padding: 3%;
+}
+#contenuto2 {
+	float: right;
+	width: 43%;
+	margin: 0.5%;
+	padding: 3%;
+}
+
+.titoli {
+	color: white;
+	text-align: center;
+	padding: 5%;
+}
+#titolo1{
+	background-color: #fa3605;
+}
+#titolo2 {
+	background-color: #055dff;
+}
+.sottotitoli {
+	text-align: left;
+	margin: 0%;
+	padding: 1%;
+}
+#sottotitolo1 {
+	background-color: #ffa600;
+}
+#sottotitolo2 {
+	background-color: #05d9fa;
+}
+.paragrafi {
+	text-align: justify;
+	font-size: 16px;
+	margin: 4%;
+	margin-top: 3%;
+}
+#paragrafo1 {
+	font-family: "Georgia", Helvetica, sans-serif;
+}
+#paragrafo2 {
+	font-family: "Courier New", Helvetica, sans-serif;
+}
+.immagini {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+}
+h4.liste{
+	margin-top: 0%;
+	margin-bottom: 10%;
+	text-decoration: underline;
+}
+#liste{
+	display: flex;
+	font-size: 14px;
+	font-family: "Georgia", Monospace, sans-serif;
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color: #ff8ab5;
+}
+#lista1 {
+margin-top: 5%;
+float: left;
+width: 60%;
+padding-left: 10%;
+padding-right: 0%;
+}
+#lista2 {
+margin-top: 5%;
+float: right;
+width: 40%;
+padding-right: 5%;
+padding-left: 0%;
+}
+
+
+#tabella {
+	display: flex;
+	justify-content: center;
+	font-family: "Verdana Bold", Helvetica ,sans-serif;
+	margin-top: 10%;
+
+}
+#tabella tr{
+	background-color:  #beffb3;
+}
+#tabella tr:nth-child(even){
+	background-color: #72ff59;
+}
+#tabella tr:hover{
+	background-color: #c7ffd4;
+}
+#tabella th{
+	color: white;
+	background-color:  #00bf50;
+}
+#tabella th,td{
+border: 1px solid black;
+padding: 0px;
+padding-left: 0px;
+padding-right: 0px;
+width: 1000px;
+height: 50px;
+text-align: center;
+}
+
+
+#box-links {
+display: flex;
+background-color:;
+margin-left: 5%;
+margin-top: 2.5%;
+}
+#gruppo1{
+	float: left;
+	margin-left: 10%;
+	list-style-image: url("./pinkiepie.png");
+	
+}
+#gruppo2{
+	float: right;
+	margin-right: 10%;
+	list-style-image: url("./applejack.png");
+}
+h3.links{
+margin-top: 20%;
+margin-bottom: 0%;
+padding-left: 5%;
+padding-top: 2.5%;
+padding-bottom: 2.5%;
+background-color: #ca1cff;
+color: white;
+}
+h4.links{
+margin-top: 5%;
+margin-bottom: 2.5%;
+text-decoration: underline;
+}
+
+a:visited{
+	color: #ff00fb;
+}
+a:link{
+	color: blue;
+}
+a:hover{
+	background-color: #ffcd45
+}
+a:active{
+	background-color: green;
+}
