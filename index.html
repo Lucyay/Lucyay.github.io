@@ -6,102 +6,210 @@
 	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <base title="clicca!" target="pagina"> <!--imposto apertura nella stessa pagina per tutti i link-->
-
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 	<body>
-		 <div id="main"><!--racchiude tutto, un po' inutile-->
-			<div id="contenuto1">
-				<h1 class="titoli" id="titolo1">La mia vacanza</h1>
-				<h3 class="sottotitoli" id="sottotitolo1">Questa è la mia vacanza</h3>
-				<p class="paragrafi" id="paragrafo1">Durante questi <i>27 mesi</i>  di quarantena ho fatto una bellissima vacanza. E niente, è divertente. Alla lunga forse noioso. No dai, è bello non fare nulla. A volte mi manca andare a scuola... però poi nah, non svegliarsi alle 6 <b> non ha prezzo. </b> <br> Più che altro non è divertente non poter vedere più nessuno a parte il gatto. E mia mamma che, facendo l'infermiera, prima o poi un po' di coronavirus me lo porterà. <br> Ok, super interessante.</p>
+		<div class="container-fluid" id="main"><!--racchiude tutto, adesso ha più senso-->
+			<div class="row">
+				<div class="container-fluid col" id="sezione1">
+					<div id="contenuto1">
+						<h1 class="titoli" id="titolo1">La mia vacanza</h1>
+						<h3 class="sottotitoli" id="sottotitolo1">Questa è la mia vacanza</h3>
+						<p class="paragrafi" id="paragrafo1">Durante questi <i>27 mesi</i>  di quarantena ho fatto una bellissima vacanza. E niente, è divertente. Alla lunga forse noioso. No dai, è bello non fare nulla. A volte mi manca andare a scuola... però poi nah, non svegliarsi alle 6 <b> non ha prezzo. </b> <br> Più che altro non è divertente non poter vedere più nessuno a parte il gatto. E mia mamma che, facendo l'infermiera, prima o poi un po' di coronavirus me lo porterà. <br> Ok, super interessante.</p>
+						<center>
+							<div class="row">
+								<div class="col">
+									<img alt="eh mi spiace, non saprai mai cosa c'era qui" width="100%" src="wowsalotto.jpg" title="Eh se, magari fosse così casa mia">
+								</div>
+								<div class="col">
+									<img alt="eh mi spiace, non saprai mai cosa c'era qui" width="100%"  src="wowsalotto.jpg" title="Eh se, magari fosse così casa mia">
+								</div>
+								<div class="col">
+									<img alt="eh mi spiace, non saprai mai cosa c'era qui" width="100%"  src="wowsalotto.jpg" title="Eh se, magari fosse così casa mia">
+								</div>
+							</div> <!--riga immagini 1-->
+						</center>
+					</div> <!--contenuto 1-->
 
-				<img alt="eh mi spiace, non saprai mai cosa c'era qui" class="immagini" src="https://cdn.cosedicasa.com/wp-content/uploads/2014/07/Divani_angolari_Alameda_Calligaris.jpg" width="69%" title="Eh se, magari fosse così casa mia">
-				<div id="liste">
-					<ol type="I" id="lista1">
-						<h4 class="liste">I posti che ho visitato:</h4>
-						<li>Cucina</li>
-						<li>Soggiorno</li>
-						<li>Camera da letto</li>
-						<li>Bagno</li>
-						<li>Balcone</li>
-						<li>Cortile</li>
-						<li>Supermercato</li>
-					</ol>
-					<ol type="a" id="lista2">
-						<h4 class="liste">Le cose che ho fatto</h4>
-						<li>Ho mangiato</li>
-						<li>Ho dormito</li>
-						<li>Ho fatto la spesa</li>
-						<li>Ho pulito tutta la casa</li>
-						<li>Ho buttato la spazzatura</li>
-						<li>Ho lavato i piatti</li>
-						<li>Ho dato da mangiare al gatto</li>
-						<li>Ho mentito sui lavori fatti in casa e il gatto è morto di fame</li>
-					</ol>
-				</div>
-				<h3 class="links">Alcuni link interessanti:</h3>
-			<div id="box-links">
-				
-				<div class="links" id="gruppo1">
-					<h4 class="links">Link meno importanti:</h4>
-					<abbr title="vabbè non è importante...">
-						<ul>
-							<li><a href="https://www.google.com/">Wow!</a></li>
-							<li><a href="https://www.youtube.com/">Ancora più wow!</a></li>
-							<li><a href="https://www.w3schools.com/">Può sempre tornare utile</a></li>
-					
-						</ul></abbr> 
-				</div>
-				<div class="links" id="gruppo2">
-					<h4 class="links">Link più importanti:</h4>
-					<abbr title="questi sì invece!!!">
-						<ul>
-						<li><a href="https://www.google.com/search?q=gattini&tbm=isch&ved=2ahUKEwi9ze75uJjoAhWSq6QKHfrPDHUQ2-cCegQIABAA&oq=gattini&gs_l=img.3..0l3j0i67j0l6.586.586..1417...0.0..0.154.154.0j1......0....1..gws-wiz-img.4xlTv8WfgbY&ei=2QFsXv38KJLXkgX6n7OoBw&safe=active">Va be dai sono carini</a></li>
-						<li><a href="https://www.google.com/search?q=cagnolini&tbm=isch&ved=2ahUKEwjy7o6YuZjoAhXK-qQKHZF9BVkQ2-cCegQIABAA&oq=cagnolini&gs_l=img.3..0l3j0i131j0l6.34519.36204..36302...0.0..0.149.1044.0j8......0....1..gws-wiz-img.......35i39j0i67.8L7_sr1Orxk&ei=GQJsXrL-Bsr1kwWR-5XIBQ&safe=active">Ancora più carini</a></li>
-						<li><a href="https://www.cryptokitties.co/">Idee finite.</a></li>
-					</ul></abbr>
-			</div>
-			</div>
-			</div>
-			<div id="contenuto2">
-				<h1 class="titoli" id="titolo2">Il mio hobby</h1>
-				<h3 class="sottotitoli" id="sottotitolo2">Questo è il mio hobby</h3>
-				<p class="paragrafi" id="paragrafo2">Probabilmente era già chiaro che il mio hobby preferito in questi giorni è <i> infastidire il gatto,</i> e facciamo che copio e incollo questo periodo perchè già per l'altro paragrafo ho dato troppo. <br> Probabilmente era già chiaro che il mio hobby preferito in questi giorni è <b> infastidire il gatto,</b> e facciamo che ho copiato e incollato questo periodo perchè già per l'altro paragrafo ho dato troppo.</p>
-				<img alt="eh mi spiace, non saprai mai cosa c'era qui" class="immagini" src="https://www.latanadeipelosi.it/wp-content/uploads/2018/04/gatto-solo-in-casa-per-il-weekend-ecco-cosa-fare.jpg" width="80%" title="E magari fosse così carino il mio gatto...">
-				<table id="tabella">
-					<tr>
-						<th>Che</th>
-						<th>Bella</th>
-						<th>Vacanza</th>
-					</tr>
-					<tr>
-						<td>E che</td>
-						<td>Bella</td>
-						<td>Tabella</td>
-					</tr>
-					<tr>
-						<td>Comunque</td>
-						<td>Il gatto</td>
-						<td>È vivo</td>
-					</tr>
-					<tr>
-						<td>Devo</td>
-						<td>Aumentare</td>
-						<td>Le righe</td>
-					</tr>
-					<tr>
-						<td>Se no</td>
-						<td>Fa proprio</td>
-						<td>Pietà</td>
-					</tr>
-					<tr>
-					<td>Ah, adesso</td>
-					<td>Già va meglio</td>
-					<td>Secondo me</td>
-				</tr>
-				</table>
-			</div>
-			
-		</div><!--chiude tutto, un po' inutile-->
+					<div class="row" id="liste">
+						<ol class="col" type="I" id="lista1">
+							<h4 class="liste">I posti che ho visitato:</h4>
+							<li>Cucina</li>
+							<li>Soggiorno</li>
+							<li>Camera da letto</li>
+							<li>Bagno</li>
+							<li>Balcone</li>
+							<li>Cortile</li>
+							<li>Supermercato</li>
+						</ol><!--colonna lista 1-->
+						<ol class="col" type="a" id="lista2">
+							<h4 class="liste">Le cose che ho fatto:</h4>
+							<li>Ho mangiato</li>
+							<li>Ho dormito</li>
+							<li>Ho fatto la spesa</li>
+							<li>Ho pulito tutta la casa</li>
+							<li>Ho buttato la spazzatura</li>
+							<li>Ho lavato i piatti</li>
+							<li>Ho dato da mangiare al gatto</li>
+							<li>Ho mentito sui lavori fatti in casa e il gatto è morto di fame</li>
+						</ol><!--colonna lista 2-->
+					</div> <!--riga liste--> 
+
+
+					<div id="box link">
+						<h3 class="links">Alcuni link interessanti:</h3>
+						<div class="row">
+							<div class="col">
+								<h4 class="links">Link meno importanti:</h4>
+								<abbr title="vabbè non è importante...">
+									<ul class="list-group">
+										<li class="list-group-item"><a href="https://www.google.com/">Wow!</a></li>
+										<li class="list-group-item"><a href="https://www.youtube.com/">Ancora più wow!</a></li>
+										<li class="list-group-item"><a href="https://www.w3schools.com/">Può sempre tornare utile</a></li>
+							
+									</ul>
+								</abbr> 
+							</div><!--primo gruppo link-->
+							<div class="col">
+								<h4 class="links">Link più importanti:</h4>
+								<abbr title="questi sì invece!!!">
+									<ul class="list-group">
+										<li class="list-group-item"><a href="https://www.google.com/search?q=gattini&tbm=isch&ved=2ahUKEwi9ze75uJjoAhWSq6QKHfrPDHUQ2-cCegQIABAA&oq=gattini&gs_l=img.3..0l3j0i67j0l6.586.586..1417...0.0..0.154.154.0j1......0....1..gws-wiz-img.4xlTv8WfgbY&ei=2QFsXv38KJLXkgX6n7OoBw&safe=active">Va be dai sono carini</a></li>
+										<li class="list-group-item"><a href="https://www.google.com/search?q=cagnolini&tbm=isch&ved=2ahUKEwjy7o6YuZjoAhXK-qQKHZF9BVkQ2-cCegQIABAA&oq=cagnolini&gs_l=img.3..0l3j0i131j0l6.34519.36204..36302...0.0..0.149.1044.0j8......0....1..gws-wiz-img.......35i39j0i67.8L7_sr1Orxk&ei=GQJsXrL-Bsr1kwWR-5XIBQ&safe=active">Ancora più carini</a></li>
+										<li class="list-group-item"><a href="https://www.cryptokitties.co/">Idee finite.</a></li>
+									</ul>
+								</abbr>
+							</div> <!--secondo gruppo-->
+						</div><!--riga link-->
+					</div> <!--box link-->
+				</div>  <!--sezione1-->
+
+				<div class="container-fluid col" id="sezione2">
+					<div id="contenuto2">
+						<h1 class="titoli" id="titolo2">Il mio hobby</h1>
+						<h3 class="sottotitoli" id="sottotitolo2">Questo è il mio hobby</h3>
+						<p class="paragrafi" id="paragrafo2">Probabilmente era già chiaro che il mio hobby preferito in questi giorni è <i> infastidire il gatto,</i> e facciamo che copio e incollo questo periodo perchè già per l'altro paragrafo ho dato troppo. <br> Probabilmente era già chiaro che il mio hobby preferito in questi giorni è <b> infastidire il gatto,</b> e facciamo che ho copiato e incollato questo periodo perchè già per l'altro paragrafo ho dato troppo.</p>
+						<center>
+							<div class="row">
+								<div class="col">
+									<img alt="eh mi spiace, non saprai mai cosa c'era qui" width="100%" src="gattinowow.jpg" title="E magari fosse così carino il mio gatto...">
+								</div>
+								<div class="col">
+									<img alt="eh mi spiace, non saprai mai cosa c'era qui" width="100%"  src="gattinowow.jpg" title="E magari fosse così carino il mio gatto...">
+								</div>
+								<div class="col">
+									<img alt="eh mi spiace, non saprai mai cosa c'era qui" width="100%"  src="gattinowow.jpg" title="E magari fosse così carino il mio gatto...">
+								</div>
+							</div> <!--riga immagini 2-->
+						</center>
+					</div><!--contenuto 2-->
+
+					<div id="tabella1">
+						<table>
+							<tr>
+								<th>Che</th>
+								<th>Bella</th>
+								<th>Vacanza</th>
+							</tr>
+							<tr>
+								<td>E che</td>
+								<td>Bella</td>
+								<td>Tabella</td>
+							</tr>
+							<tr>
+								<td>Comunque</td>
+								<td>Il gatto</td>
+								<td>È vivo</td>
+							</tr>
+							<tr>
+								<td>Devo</td>
+								<td>Aumentare</td>
+								<td>Le righe</td>
+							</tr>
+							<tr>
+								<td>Se no</td>
+								<td>Fa proprio</td>
+								<td>Pietà</td>
+							</tr>
+							<tr>
+								<td>Ah, adesso</td>
+								<td>Già va meglio</td>
+								<td>Secondo me</td>
+							</tr>
+						</table>
+					</div><!--tabella 1 fatta da me-->
+
+					<div id="tabella2"><!--copiata e incollata da w3school per un avere un po' di colore in più che non fa mai male-->
+						<table class="table table-hover">
+						    <thead>
+						      <tr class="table-danger">
+						        <th>Magica</th>
+						        <th>Tabella</th>
+						        <th>Copiata</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr class="table-warning">
+						        <td>Default che più</td>
+						        <td>Default di così</td>
+						        <td>Non si può</td>
+						      </tr>      
+						      <tr class="table-success">
+						        <td>Primary</td>
+						        <td>Joe</td>
+						        <td>joe@example.com</td>
+						      </tr>
+						      <tr class="table-info">
+						        <td>Success</td>
+						        <td>Doe</td>
+						        <td>john@example.com</td>
+						      </tr>
+						      <tr class="table-danger">
+						        <td>Danger</td>
+						        <td>Moe</td>
+						        <td>mary@example.com</td>
+						      </tr>
+						      <tr class="table-warning">
+						        <td>Info</td>
+						        <td>Dooley</td>
+						        <td>july@example.com</td>
+						      </tr>
+						      <tr class="table-success">
+						        <td>Warning</td>
+						        <td>Refs</td>
+						        <td>bo@example.com</td>
+						      </tr>
+						      <tr class="table-info">
+						        <td>Active</td>
+						        <td>Activeson</td>
+						        <td>act@example.com</td>
+						      </tr>
+						      <tr class="table-danger">
+						        <td>Secondary</td>
+						        <td>Secondson</td>
+						        <td>sec@example.com</td>
+						      </tr>
+						      <tr class="table-warning">
+						        <td>Light</td>
+						        <td>Angie</td>
+						        <td>angie@example.com</td>
+						      </tr>
+						      <tr class="table-success">
+						        <td>Dark</td>
+						        <td>Bo</td>
+						        <td>bo@example.com</td>
+						      </tr>
+						    </tbody>
+						</table>
+					</div> <!--tabella 2 spudoratamente copiata-->
+
+				</div> <!--sezione2-->
+			</div> <!--riga principale-->
+		</div><!--racchiude tutto-->
 	</body>
 </html>
+
+<!---->

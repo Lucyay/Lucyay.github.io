@@ -1,16 +1,16 @@
-body{
+#main{
 	background-color: #ffff4f;
-}
-/*creo due colonne per disporre il contenuto*/
-#contenuto1{
+} /*solo colore di sfondo*/
+
+#sezione1{
 	float: left;
-	width: 43%;
+	width: 49%;
 	margin: 0.5%;
 	padding: 3%;
 }
-#contenuto2 {
+#sezione2 {
 	float: right;
-	width: 43%;
+	width: 49%;
 	margin: 0.5%;
 	padding: 3%;
 }
@@ -49,114 +49,84 @@ body{
 #paragrafo2 {
 	font-family: "Courier New", Helvetica, sans-serif;
 }
-.immagini {
-	display: flex;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 5%;
-}
-h4.liste{
-	margin-top: 0%;
-	margin-bottom: 10%;
-	text-decoration: underline;
-}
 #liste{
-	display: flex;
+	/*display: flex;*/
 	font-size: 14px;
 	font-family: "Georgia", Monospace, sans-serif;
 	margin-top: 5%;
-	margin-right: 10%;
-	margin-left: 10%;
+	margin-right: 7%;
+	margin-left: 7%;
+	margin-bottom: 5%;
+	padding-top: 4%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 1%;
 	background-color: #ff8ab5;
 }
-#lista1 {
-margin-top: 5%;
-float: left;
-width: 60%;
-padding-left: 10%;
-padding-right: 0%;
+h4.liste{
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: underline overline;
+	margin-bottom: 5%;
+	margin-right: 2%;
+	margin-left: -10%;
 }
-#lista2 {
-margin-top: 5%;
-float: right;
-width: 40%;
-padding-right: 5%;
-padding-left: 0%;
+
+h3.links{
+	margin-top: 20%;
+	margin-bottom: 1.5%;
+	padding-left: 3.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-color: #ca1cff;
+	color: white;
+}
+h4.links{
+font-weight: 450;
+font-size: 20px;
+margin-bottom: 2.5%;
+text-decoration: underline;
+background-color: #ca1cff;
+padding: 2.5%;
+}
+a:visited{color: #ff00fb;} a:link{color: blue;} a:hover{background-color: #ffcd45} a:active{background-color: green;
 }
 
 
-#tabella {
-	display: flex;
+
+
+#tabella1{
 	justify-content: center;
 	font-family: "Verdana Bold", Helvetica ,sans-serif;
 	margin-top: 10%;
-
 }
-#tabella tr{
+#tabella1 tr{
 	background-color:  #beffb3;
 }
-#tabella tr:nth-child(even){
+#tabella1 tr:nth-child(even){
 	background-color: #72ff59;
 }
-#tabella tr:hover{
+#tabella1 tr:hover{
 	background-color: #c7ffd4;
 }
-#tabella th{
+#tabella1 th{
 	color: white;
+	font-weight: 750;
+	font-size: 19px;
 	background-color:  #00bf50;
 }
-#tabella th,td{
+#tabella1 th,td{
 border: 1px solid black;
-padding: 0px;
-padding-left: 0px;
-padding-right: 0px;
 width: 1000px;
 height: 50px;
 text-align: center;
 }
-
-
-#box-links {
-display: flex;
-background-color:;
-margin-left: 5%;
-margin-top: 2.5%;
+#tabella2{
+	margin-top: 10%;
+	text-align: center;
 }
-#gruppo1{
-	float: left;
-	margin-left: 10%;
-	list-style-image: url("./pinkiepie.png");
-	
-}
-#gruppo2{
-	float: right;
-	margin-right: 10%;
-	list-style-image: url("./applejack.png");
-}
-h3.links{
-margin-top: 20%;
-margin-bottom: 0%;
-padding-left: 5%;
-padding-top: 2.5%;
-padding-bottom: 2.5%;
-background-color: #ca1cff;
-color: white;
-}
-h4.links{
-margin-top: 5%;
-margin-bottom: 2.5%;
-text-decoration: underline;
-}
-
-a:visited{
-	color: #ff00fb;
-}
-a:link{
-	color: blue;
-}
-a:hover{
-	background-color: #ffcd45
-}
-a:active{
-	background-color: green;
+th.table-hover{
+	font-weight: 1000;
+	font-size: 100px;
 }
