@@ -93,8 +93,9 @@ padding: 2.5%;
 a:visited{color: #ff00fb;} a:link{color: blue;} a:hover{background-color: #ffcd45} a:active{background-color: green;
 }
 
-
-
+#boxlink{
+	margin-bottom: 5%;
+}
 
 #tabella1{
 	justify-content: center;
